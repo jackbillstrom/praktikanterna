@@ -1,0 +1,109 @@
+#header img {
+    border: 1px solid;
+    background-color: white;
+    border-radius: 25px;
+    padding: 17px;
+}
+
+#header .nav-link:hover {
+    color: #feba5d;
+}
+
+#header ul li {
+    font-size: 20px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-image: url(./images/weldingman.jpg);
+    background-size: cover;
+}
+
+#reference-list {
+    max-width: 400px;
+}
+
+#reference-list ul li:first-child{
+    background-color: #feba5d;
+}
+
+#reference-list .link{
+    color: #feba5d;
+
+}
+
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(180deg, #292b2c 10%, rgba(189, 188, 184, 0) 100%);
+    z-index: -1;
+  }
+
+  #main-text {
+      max-width: 800px;
+      z-index: 2;
+      color: white;
+  }
+
+  #main-text span {
+      font-size: 2rem;
+      color: black;
+  }
+
+  #footer-address li, #footer-contact li{
+    padding: 5px;
+  }
+
+  @media (max-width: 767px) {
+
+    #header img {
+        border: 1px solid;
+        background-color: white;
+        border-radius: 25px;
+        padding: 10px;
+        height: 80px;
+    }
+
+    .jumbotron {
+        background-image: none;
+        background-color: #292b2c;
+        text-align: center;
+        height: 230px;
+    }
+
+    .jumbotron h1 {
+        font-size: 2.5rem;
+    } 
+
+    #main-text {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        max-width: 400px;
+        color: #292b2c;
+    }
+
+    #contact-us .card {
+        width: 70vw;
+      }
+
+  }
+
+  #contact-us form {
+    color: #757575;
+  }
+
+  
+  #contact-us .card {
+    width: 50vw;
+  }
+
+  #contact-us button {
+      background-color: #feba5d;
+  }
+
+
+  #footer {
+      background-color: #292b2c;
+      color: white;
+  }

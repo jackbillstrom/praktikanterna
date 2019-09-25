@@ -1,0 +1,7 @@
+.textFix {
+    text-decoration: none;
+}
+
+.textFix:hover {
+    color: rgb(255, 174, 0);
+}

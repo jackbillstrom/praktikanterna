@@ -1,0 +1,4 @@
+$(function() {
+    $breadcrumb-divider; quote(">");
+})
+

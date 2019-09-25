@@ -1,0 +1,49 @@
+#overview-a {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(179deg, rgba(248,249,250,1) 20%, rgba(189,188,184,0.6531206232492996) 100%);
+    
+}
+
+.main-content {
+    margin-top: 70px;
+}
+
+.main-content .card {
+    border-radius: 10px;
+    position: relative;
+    top: 150px;
+}
+
+.main-content .card2 {
+    border-radius: 10px;
+    position: relative;
+    top: 140px;
+}
+
+
+.breadcrumb-item + .breadcrumb-item::before {
+    font-family: "fontawesome";
+    content: "\f054";
+    font-size: 8pt;
+ }
+
+ #sticky-footer {
+    flex-shrink: none;
+  }
+
+table {
+    margin:10px;
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #main-content .card {
+        border-radius: 5px
+    }
+
+}

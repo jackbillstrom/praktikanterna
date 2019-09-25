@@ -1,0 +1,55 @@
+#overview-a {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(179deg, rgba(248,249,250,1) 20%, rgba(189,188,184,0.6531206232492996) 60%), 
+                url(../images/bakgrund.jpg);
+    background-size: cover;
+}
+
+
+#overview-a .wave  {
+    position: absolute;
+    width: 100%;
+    height: 142px;
+    bottom:0;
+    left:0;
+    background: url(../images/wave.png);
+    z-index: 5;
+}
+
+
+.main-content {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.main-content .card {
+    border-radius: 10px
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    font-family: "fontawesome";
+    content: "\f054";
+    font-size: 8pt;
+ }
+
+ #sticky-footer {
+    flex-shrink: none;
+  }
+
+table {
+    margin:10px;
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #main-content .card {
+        border-radius: 5px
+    }
+
+}
+

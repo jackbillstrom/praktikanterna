@@ -1,0 +1,50 @@
+
+.main-section {
+    margin-top: 87px;
+    
+    .carousel-item {
+        position: relative;
+        background: black;
+    
+        img {
+            opacity: .6;
+            max-height: 850px;
+            width: auto;
+        }
+    
+        .carousel-caption {
+            position: absolute;
+            top: 35%;
+    
+            h1 {
+                font-weight: 400;
+                letter-spacing: 2px;
+                text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.7);
+            }
+    
+            p {
+                color: rgb(255, 185, 56);
+                text-shadow: .5px .5px .5px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .carousel-item {
+        position: relative;
+
+        .carousel-caption {
+            position: absolute;
+            top: 10%;
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+    
+
+}

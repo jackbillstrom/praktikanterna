@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Aros Byggsmide</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<meta name="language" content="sv"/>
+
+<!--<link rel="stylesheet" href="style.css" type="text/css">-->
+
+<style type="text/css" media="screen">
+
+/* General */
+
+*	{ margin: 0 auto; padding: 0; }
+/*img, div, td, table, style, background-image, background, { behavior: url(iepngfix.htc);}*/
+div         { margin: 0 auto; padding:0; }
+body        { margin: 0 auto; padding:0; background: #fcfcfc; font-family:Arial, sans-serif; font-size: 12px; line-height: 140%; color: #191919;}
+h1          { font-family:georgia, times, serif; font-size: 30px; font-weight: normal; color: #191919; margin-bottom: 0px; padding-bottom: 10px; line-height:120%; }
+h2          { font-family:georgia, times, serif; font-size: 16px; font-weight: normal; color: #191919; margin: 0px; padding: 0px;}
+h3          { font-family:georgia, times, serif; font-size: 12px; font-weight: bold; color: #191919; margin: 0px; padding: 0px;}
+input       { font-family:Arial, sans-serif; color:#191919;}
+a:focus		{ outline: none;}
+img         { border: 0px; }
+td          { font-size: 13px;}
+p           { font-family:Arial, sans-serif; font-size: 12px; line-height: 140%; color: #191919; padding:0px; margin:0px;}
+a:link      { color: #965410; text-decoration: none; }
+a:active    { color: #965410; text-decoration: none;}
+a:visited   { color: #965410; text-decoration: none;}
+a:hover     { text-decoration: underline; }
+
+ul          {margin:0px; padding:0px;}
+li          {margin-left:15px; padding:3px;}
+
+.clear		{ clear:both; }
+.hr         {min-height:4px; width:100%; margin-top:5px; margin-bottom:15px; background:url(img/hr.gif) repeat-x;}
+.hr2         {min-height:4px; width:100%; margin-top:15px; margin-bottom:15px; background:url(img/hr.gif) repeat-x;}
+.rc         {-moz-border-radius:10px; -webkit-border-radius:10px; behavior:url(border-radius.htc);}
+
+#main		{ width:100%; min-height: 450px; background: url(img/bg_top.jpg) repeat-x top #fff; }
+
+#top        {width: 830px; min-height:129px; _height:129px;}
+#logobox    {width:200px; margin-top:15px; float: left; display:inline;}
+#navbox     {float:right; width:600px; min-height:40px; margin-top:70px;}
+#topnav             { margin-right:14px; margin-top:20px; min-height:40px; _height:40px; float:right; display:inline; }
+#topnav ul          { margin: 0 auto; padding: 0px; list-style-type: none; height:40px; background:url(img/bg_navbar.gif) repeat-x;}
+#topnav li          { display: inline; float:left; height:40px; position: relative; margin: 0px; padding: 0px;}
+#topnav a           { display: block; float: left; padding-right: 10px; padding-left: 10px; line-height: 40px; text-decoration:none; font-weight:normal; font-size: 13px; color: #191919; font-family:arial, Sans-Serif; background:url(img/topdiv.gif) no-repeat;}
+#topnav a:hover     { text-decoration: none; _text-decoration: underline; background:url(img/bg_navbar_hover.gif) repeat-x;}
+
+#banner     {width:630px; min-height:185px; _height:185px; margin-top:15px; padding-left: 200px; padding-top:20px; background:url(img/bg_banner.jpg) no-repeat; }
+#banner h1  {font-family:Impact, Arial; font-size:45px; color:#fff;}
+#banner p   {color:#febb5e;}
+
+#content    {width:830px;}
+
+#box1       {width:490px; float:left;}
+#box2       {width:300px; float:right; min-height:220px; _height:220px; background: url(img/bg_refruta.jpg) repeat-x top #010101; -moz-border-radius:10px; -webkit-border-radius:10px; behavior:url(border-radius.htc); }
+#box2 h1    {color:#fff; font-family:Arial, Sans-Serif; font-weight:bold; font-size:24px; padding:5px; margin:5px; border-bottom: 1px dotted #656668; _border-bottom:1px dashed #656668;}
+#box2 p     {color:#fff; border-bottom: 1px dotted #656668; _border-bottom:1px dashed #656668; padding: 5px; margin: 5px;}
+
+ 
+
+#footer     {width:830px; margin-top:15px;}
+#footbox1    {width:200px; float:left;}
+#footbox2    {width:200px; float:left;}
+#footbox3    {width:430px; float:right; text-align:right;}
+
+</style>
+<!--[if IE 6]>
+ <style type="text/css">
+    @import url(ie-6.0.css);
+  </style>
+<![endif]-->
+
+</head>
+<body>
+
+
+
+<div id="main">
+    <div id="top">
+        <div id="logobox"><a href="default.asp"><img src="img/aros_byggsmide.gif" alt="Aros Byggsmide" /></a></div>
+        <div id="navbox">
+            <div id="topnav">
+                <ul>
+                    <li style="background:none;"><a href="default.asp?m=1"  style="background:url(img/bg_navbar_hover.gif) repeat-x;" >Hem</a></li>
+                    <li><a href="om_foretaget.asp?m=2" >Om f&ouml;retaget</a></li>
+                    <li><a href="tillverkning.asp?m=3" >Tillverkning</a></li>
+                    <li><a href="referenser.asp?m=4" >Referenser</a></li>
+                    <li><a href="partners.asp?m=5" >Partners</a></li>
+                    <li><a href="arbeta.asp?m=6" >Arbeta hos oss</a></li>
+                    <li><a href="kontakt.asp?m=7" >Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+  
+      <div id="banner">
+    <h1 class="impact">En stark stomme inom byggindustrin</h1>
+    <p>Vi tillverkar det mesta inom byggnadssmide till byggbranschen.</p>
+    </div>
+    
+    <div id="content">
+    <div class="hr"></div>
+    
+    <div id="box1">
+    <h1>Vi konstruerar efter dina önskemål!</h1>
+    <p>Aros Byggnadssmide är företaget med många egna kluriga idéer för att hitta fungerande läsningar på konstruktionsproblem till olika byggnationer. 
+    <br /><br />
+    Vi tillverkar och monterar allt från enkla stommar i stål till komplexa former i aluminium. Alla våra kunder får sin egen skräddarsmidda lösning. Problem är till för att lösas, så ring oss när ni har frågor kring stålkonstruktioner. 
+    <br /><br />
+    <strong><i>Välkommen!</i></strong></p>
+    </div>
+    
+    <div id="box2">
+    <h1>Referenser</h1>
+    <p><strong>Hälla fackhandel</strong> - stålstommar</p>
+    <p><strong>Västerås Centrallasarett</strong> - påbyggnad av ytterligare en våning </p>
+    <p><strong>IKEA</strong> - ombyggnad av entrén</p>
+    <p style="border:none;"><a href="referenser.asp?m=4">Fler referenser &raquo;</a></p>
+    </div>
+    <div class="clear"></div>
+    </div>
+    
+ <div id="footer">
+   <div class="hr"></div>
+   
+   <div id="footbox1">
+   Aros Byggsmide AB<br />
+   Transformatorgatan 10 <br />    
+   721 37 V&auml;ster&aring;s
+   </div>
+   
+   <div id="footbox2">
+   Tfn 021 13 22 11<br />
+   Fax 021 12 43 35<br />
+   e-post: <a href="mailto:info@arosbyggsmide.se">info@arosbyggsmide.se </a>
+   </div>
+   
+   <div id="footbox3">
+   <a href="sitemap.asp">Sitemap</a>
+   </div>
+   
+   </div>
+    
+</div>
+
+</body>
+</html>

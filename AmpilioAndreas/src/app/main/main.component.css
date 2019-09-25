@@ -1,0 +1,12 @@
+.constructionDay {
+    background-image: url('https://i.imgur.com/LTOJpLx.jpg'); 
+    opacity: 50%;
+}
+
+.textFix {
+    text-decoration: none;
+}
+
+.textFix:hover {
+    color: rgb(255, 174, 0);
+}

@@ -1,0 +1,33 @@
+header {
+
+    background: rgb(245, 245, 245);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+
+    .logotype img {
+        height: 60px;
+        width: auto;
+    }
+
+    .nav-link {
+        color: black;
+        padding-bottom: 13px;
+        border-bottom: 2px solid rgb(245, 245, 245);
+        transition: ease-in-out .3s;
+    }
+
+    .nav-link:hover {
+        color: rgb(92, 92, 92);
+        border-bottom: 2px solid rgb(255, 166, 0);
+    }
+
+    .navbar-toggler {
+
+        border: none;
+
+        .toggle-menu {
+            font-size: 2rem;
+        }
+    }
+
+}

@@ -1,0 +1,64 @@
+h4 {
+  font-weight: 450;
+  letter-spacing: 2px;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+#footer-section {
+  /* Partners */
+  /* Footer lists */
+}
+
+#footer-section .partner {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: ease-in-out .1s;
+  transition: ease-in-out .1s;
+}
+
+#footer-section .partner img {
+  max-width: 150px;
+  height: auto;
+}
+
+#footer-section .partner:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#footer-section .bg-footer-list {
+  background: whitesmoke;
+}
+
+#footer-section .footer-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#footer-section .footer-list h5 {
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+#footer-section .footer-list li {
+  margin-bottom: 7px;
+  -webkit-transition: ease-in-out .1s;
+  transition: ease-in-out .1s;
+  cursor: pointer;
+}
+
+#footer-section .footer-list li:hover {
+  -webkit-transform: translate(3px, 0);
+          transform: translate(3px, 0);
+}
+
+#footer-section .footer-list p {
+  padding: 0;
+  margin: 3px 0px;
+}
+/*# sourceMappingURL=footer.component.css.map */

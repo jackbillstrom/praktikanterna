@@ -1,0 +1,44 @@
+.main-section {
+  margin-top: 87px;
+}
+
+.main-section .carousel-item {
+  position: relative;
+  background: black;
+}
+
+.main-section .carousel-item img {
+  opacity: .6;
+  max-height: 850px;
+  width: auto;
+}
+
+.main-section .carousel-item .carousel-caption {
+  position: absolute;
+  top: 35%;
+}
+
+.main-section .carousel-item .carousel-caption h1 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.main-section .carousel-item .carousel-caption p {
+  color: #ffb938;
+  text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel-item {
+    position: relative;
+  }
+  .carousel-item .carousel-caption {
+    position: absolute;
+    top: 10%;
+  }
+  .carousel-item .carousel-caption h1 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=main.component.css.map */

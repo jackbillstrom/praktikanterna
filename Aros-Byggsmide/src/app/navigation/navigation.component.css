@@ -1,0 +1,112 @@
+/* dark-gray: #263238;
+white: rgb(240, 240, 240);
+light-gray: rgb(170, 170, 170); */
+#header {
+     margin-left: 8%;
+     margin-right: 5%;
+}
+
+    .navigation a {
+        color: #131618;
+    }
+   
+        
+      .logo-image {
+        width: 150px;
+      }
+        
+     #header li {
+        background-color: #fcfcfc79;
+        margin-top: 1%;
+     }
+      
+    
+      .nav-item1 {
+        min-width: 75px;
+          }
+      .nav-item2 {
+          min-width: 120px;
+      }
+      .nav-item3 {
+         min-width: 100px;
+    }
+    .nav-item4 {
+        min-width: 125px;
+   }
+        #header {
+           animation-duration: 3s;
+        animation-name: slidein;
+          
+        }
+        .navbar {
+          animation-duration: 1s;
+          
+          animation-iteration-count: 1;
+          animation-direction: alternate;
+        }
+      
+         @keyframes slidein {
+        from {
+          margin-top:-200px;
+        
+        }
+        
+        to {
+          margin-top:0%;
+          
+        }
+      } 
+      a.hover-color:hover,
+       a.hover-color:active {
+         font-size: 103%;
+         color:#282168;
+         background-color: #f0cdaa;
+         transition: 0.65s;
+         
+        }
+
+        p {
+          font-family:Arial, sans-serif; font-size: 12px;
+        }
+        h1    { font-family:georgia, times, serif; font-size: 30px; font-weight: normal; color: #191919;}
+
+        @media (max-width: 1150px) {
+          #header {
+                               
+                        margin-top: -20px;
+          }
+        }
+      
+
+        @media (max-width: 990px) {
+          #header {
+                               
+            margin-top: 0px;
+}
+          #header img {
+            
+            padding-left: 40px;
+          }
+          .navbar-mobile ul {
+            background-color: #131618;
+            color: aliceblue;
+            margin-top: -60px;
+            background-color: black;
+            color: azure;
+              width: 250px;
+              display:inline-block;
+            
+          }
+          .navbar-mobile li {
+            background-color: #131618;
+            color: aliceblue;
+           
+            
+          }
+          .navbar-mobile a {
+            background-color: #576168;
+            color: aliceblue;
+                     
+            
+          }
+         }
